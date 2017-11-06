@@ -6,14 +6,37 @@
 }
 .footercontainer {
   top: -10px;	
+  background: rgba(21, 33, 33, 1) none repeat scroll 0% 0%;
+  border: none;
 }
 #nameplate {
   margin-left: 0px;	
   padding-right: 6px;
+  padding-top: 13px;
 }
 #messageboxouter {
-  width: calc(100% - 87px); 	
+  width: calc(100% - 91px); 	
 }
 textarea.materialize-textarea {
   width: 100%;	
+  color: #e5d9a9; 
+}
+#chatcontent {
+  background: rgba(21, 33, 33, 0.88) none repeat scroll 0% 0%; 
+}
+.chatmessage {
+  color: #e5d9a9;  
+}
+#chatcontent .chatusername {
+  color: #e5d9a9 !important;
+}
+#discordlogin_btn {
+  margin-top: 11px;  
+}
+#visitor_mode_message_note {
+  color: #e5d9a9;
+}
+.currentuserimage {
+  width: 36px;
+  margin: 0;
 }
