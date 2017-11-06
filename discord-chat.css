@@ -83,7 +83,7 @@ textarea.materialize-textarea {
   color: #e5d9a9;
   padding-top: 22px;
 }
-#discord-members li:first-child a {
+#discord-members li:first-child a.subheader.role-title {
   padding-top: 2px;
 }
 .membername {
