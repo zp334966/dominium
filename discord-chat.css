@@ -62,7 +62,7 @@ textarea.materialize-textarea {
   line-height: 33px;
 }
 .side-nav .subheader {
-  color: #e5d9a9;
+  color: #e5d9a9 !important;
 }
 .side-nav li>a {
   padding: 0 10px;
@@ -70,7 +70,6 @@ textarea.materialize-textarea {
   color: #AFECFA;
 }
 #members-nav li>a {
-  color: unset;
   height: 47px;  
 }
 #discord-members > li > a.subheader {
@@ -84,7 +83,7 @@ textarea.materialize-textarea {
   color: #e5d9a9;
   padding-top: 22px;
 }
-#discord-members li:first a {
+#discord-members li:first-child a {
   padding-top: 2px;
 }
 .membername {
