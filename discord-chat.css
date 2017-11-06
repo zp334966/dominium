@@ -8,6 +8,7 @@
   top: -10px;	
   background: rgba(21, 33, 33, 1) none repeat scroll 0% 0%;
   border: none;
+  border-radius: 0;
 }
 #nameplate {
   margin-left: 0px;	
@@ -23,6 +24,8 @@ textarea.materialize-textarea {
 }
 #chatcontent {
   background: rgba(21, 33, 33, 0.88) none repeat scroll 0% 0%; 
+  padding-left: 3px;
+  padding-right: 3px;
 }
 .chatmessage {
   color: #e5d9a9;  
@@ -30,13 +33,51 @@ textarea.materialize-textarea {
 #chatcontent .chatusername {
   color: #e5d9a9 !important;
 }
+#chatcontent > p {
+  width: 100%;
+  border-top: solid 1px #90a4ae;
+}
 #discordlogin_btn {
   margin-top: 11px;  
 }
 #visitor_mode_message_note {
   color: #e5d9a9;
 }
-.currentuserimage {
+#currentuserimage {
   width: 36px;
   margin: 0;
 }
+#emoji-tray-toggle > .btn-floating {
+  top: -4px;
+}
+
+.userView {
+  display: none; 
+}
+#guild-nav, #members-nav {
+  width: 220px;
+  background: rgba(21, 33, 33, 1) none repeat scroll 0% 0%;  
+}
+.side-nav .subheader {
+  color: #e5d9a9;
+}
+.side-nav li>a {
+  padding: 0 10px;
+  height: 42px;
+  color: #AFECFA;
+}
+#discord-members > li > a.subheader {
+  display: inline-block;
+  line-height: 49px;  
+  color: #e5d9a9;
+}
+#discord-members > li > a.subheader.role-title {
+  display: inline-block;
+  line-height: 19px;  
+  color: #e5d9a9;
+}
+.membername {
+  color: #AFECFA;
+}
+
+
