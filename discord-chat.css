@@ -1,0 +1,19 @@
+#discord-chat .brand-logo-text,
+#discord-chat .authorhash,
+#discord-chat .authordiscriminator,
+#discord-chat #currentusername {
+  display: none;
+}
+#discord-chat .footercontainer {
+  top: -10px;	
+}
+#discord-chat #nameplate {
+  margin-left: 0px;	
+  padding-right: 6px;
+}
+#discord-chat #messageboxouter {
+  width: calc(100% - 87px); 	
+}
+#discord-chat textarea.materialize-textarea {
+  width: 100%;	
+}
